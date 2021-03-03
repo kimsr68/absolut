@@ -38,7 +38,38 @@ $(document).ready(function(){
             clickable:true
       }
     });
+    //tab메뉴
+    $('.t1').addClass('active');
+    $('.tab_content div').hide();
+    $('.con1').show();
+    $('.t1').click(function(e){
+        e.preventDefault();
+        $('.t1').addClass('active');
+        $('.t2').removeClass('active');
+        $('.t3').removeClass('active');
+        $('.con1').show();
+        $('.con2').hide();
+        $('.con3').hide();
+    });
+      $('.t2').click(function(e){
+        e.preventDefault();
+        $('.t2').addClass('active');
+        $('.t1').removeClass('active');
+        $('.t3').removeClass('active');
+        $('.con2').show();
+        $('.con1').hide();
+        $('.con3').hide();
+    });
+      $('.t3').click(function(e){
+        e.preventDefault();
+        $('.t3').addClass('active');
+        $('.t1').removeClass('active');
+        $('.t2').removeClass('active');
+        $('.con3').show();
+        $('.con1').hide();
+        $('.con2').hide();
 //family site
+      });
     var sw=0;
     $('.family_btn').click(function(){
         if(sw==0){
@@ -52,8 +83,48 @@ $(document).ready(function(){
             $('.family_btn span').removeClass('active');
         }
     });
+    
+    //TOP버튼
+    $('.top').click(function(){
+        $('html,body').animate({
+            scrollTop:0
+        });
+    });
 
 
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

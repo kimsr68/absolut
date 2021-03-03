@@ -190,14 +190,20 @@ header .qna a {
 .tab .tab_content div p {
     width: 90%;
     margin: 0 auto;
-    padding: 5%;
+    padding: 3%;
     text-align: center;
     font-size: 12vw;
     color: #fff;
-    text-shadow: 1px 1px 1px #333;
-    margin-top: 15vh;
+    text-shadow: 3px 3px 3px #333;
+    margin-top: 18vh;
     white-space: nowrap;
     font-weight: bold;
+}
+.tab .tab_content div  a {
+    text-align: center;
+    font-size: 3vw;
+    color: #fff;
+    
 }
 .tab .tab_content .con1 {
     background-image: url(../img/slide5.jpg);
@@ -216,24 +222,36 @@ header .qna a {
     width: 43%;
     padding: 3.5%;
     background-color: palevioletred;
-    color: #fff;
+    color: #111;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
     line-height: 4.5vw;
     font-weight: 600;
     white-space: nowrap;
 }
+.system h1 {
+    margin-bottom: 0.5vw;
+    padding: 1vw;
+}
+.system  .sys2 {
+    font-size: 2.3vw;
+    text-align: center;
+}
+.system div p {
+    font-size: 0.2vw;
+    line-height: 3.5vw;
+}
 .system a {
-    border: 1px solid #fff;
+    border: 1px solid #111;
     padding: 3%;
     font-size: 2.5vw;
-    color: #fff;
+    color: #111;
     width: 60%;
     margin: 0 auto;
     margin-top: 2vh;
 }
 .system .sys1 {
-    border-right: 1px solid #fff;
+    border-right: 1px solid #111;
 }
 .box {
     width: 100%;
@@ -241,7 +259,7 @@ header .qna a {
 }
 .box h1 {
     font-size: 6vw;
-    text-shadow: 1px 1px 1px #333;
+    text-shadow: 1px 1px 1px #fff;
     margin: 5%;
 }
 .box p {
@@ -262,19 +280,15 @@ header .qna a {
 .box ul li {
     width: 49%;
     padding-bottom: 8%;
-    background-color: #fff;
-    box-sizing: border-box;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     text-align: center;
 }
-.box ul li .list_img {
-    margin-bottom: 5%;
-}
 .news {
-    background-color: cornflowerblue;
+    height: 100%;
+    background-color: #191d29;
 }
 .news h1 {
-    color: #333;
+    color: #fff;
     text-shadow:  1px 1px 1px #ccc;
 }
 .news a {
@@ -282,17 +296,12 @@ header .qna a {
 }
 .news ul li {
     padding: 0;
+    margin: 0.4vw;
     background-color: transparent;
-}
-footer {
-    width: 100%;
-    height: 100%;
-    background-color: blue;
 }
 .family {
     width: 34vw;
-    margin-top: 15%;
-    margin-left: 5%;
+    margin-right: 34%;
     position: relative;
 }
 .family .site {
@@ -305,12 +314,11 @@ footer {
     bottom: 0;
 }
 .family .site.active {
-    max-height: 28vw;
-    bottom: 7.5vw;
-    
+    max-height: 60vw;
+    bottom:10vw;
 }
 .family .site ul li a {
-    background-color: #3c3c3c;
+    background-color: #111;
     text-align: center;
     font-size: 2.8vw;
     padding: 8%;
@@ -318,6 +326,11 @@ footer {
     color: #fff;
     white-space: nowrap;
     margin: 1%;
+}
+.family .family_btn {
+    position: relative;
+    z-index: 70;
+    padding-top: 5vw;
 }
 .family .family_btn a{
     border: 1px solid #3c3c3c;
@@ -331,8 +344,8 @@ footer {
 }
 .family .family_btn a span {
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     position: absolute;
     background-image: url(../img/family.png);
     background-position: left;
@@ -340,13 +353,58 @@ footer {
     background-size: cover;
     right: 20px;
     bottom: 10px;
-    top: 3.5vw;
+    top: 4.5vw;
 }
 .family .family_btn a span.active {
     background-position: right;
 }
-
-
+.top {
+    float: left;
+    width: 12vw;
+    height: 5vw;
+    padding: 1.3%;
+    font-size: 2.5vw;
+    background-color: #fff;
+    color: #111;
+    line-height: 5vw;
+    border-radius: 20vw;
+    text-align: center;
+    float: right;
+    margin-top: -8%;
+    margin-right: 5vw;
+}
+footer {
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+    font-size: 3vw;
+    padding: 3vw;;
+    line-height: 5vw;
+    color: #fff;
+}
+footer .logo {
+    width: 60vw;
+    margin: 0 auto;
+    padding-top: 10vw;
+}
+.info1 {
+    width: 100%;
+    clear: both;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.info1 ul {
+    display: flex;
+}
+.info1 ul li a {
+    white-space: nowrap;
+    color: #fff;
+    margin:3vw;
+}
+.info2 address {
+    text-align: center;
+    
+}
 
 
 
