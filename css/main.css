@@ -381,6 +381,7 @@ footer {
     padding: 3vw;;
     line-height: 5vw;
     color: #fff;
+    box-sizing: border-box;
 }
 footer .logo {
     width: 60vw;
