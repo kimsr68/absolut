@@ -11,7 +11,7 @@ header {
     position: fixed;
     width: 100%;
     height: 7vh;
-    background-color: #02698f;
+    background-color: #055f9e;
     display: flex;
     justify-content: space-between;
     z-index: 50;
@@ -21,8 +21,8 @@ header .menu_btn {
     margin: 1%;
 }
 header .logo {
-    width: 30%;
-    margin-top: 3%;
+    width: 40%;
+    margin-top: 2%;
 }
 header .qna {
     font-size:3vw;
@@ -47,8 +47,7 @@ header .qna a {
 .navi nav {
     width: 75%;
     height: 100vh;
-    background-color: blue;
-    box-shadow: 50px 14px 50px 36px rgb(0 0 0 /50%);
+    background-color: #055f9e;
     float: left;
     box-sizing: border-box;
     padding: 10% 4%;
@@ -87,8 +86,8 @@ header .qna a {
     z-index: 101;
     background-color: #fff;
     opacity: 1;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 section, footer {
     float: left;
@@ -138,11 +137,14 @@ section, footer {
     padding-top: 23vw;
     color: #fff;
     font-weight: bold;
+    text-shadow: 1px 1px 1px #fff;
 }
 .promotion p {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: #fff;
     text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+    
 }
 .promotion a {
     background-color: #fff;
@@ -166,7 +168,7 @@ section, footer {
     text-align: center;
     font-size: 3.2vw;
     padding: 4%;
-    background-color: #02698f;
+    background-color: #055f9e;
     border-right: 1px solid #191d29;
     color: #fff;
 }
@@ -174,8 +176,8 @@ section, footer {
     border-right: none;
 }
 .tab .tab_title a.active {
-    background-color: #fff9;
-    color:#02698f;
+    background-color: #fff;
+    color:#055f9e;
     font-weight: bold;
 }
 .tab .tab_content {
@@ -383,7 +385,7 @@ section, footer {
 footer {
     width: 100%;
     height: 40vh;
-    background-color:#02698f;
+    background-color:#055f9e;
     font-size: 3vw;
     padding: 3vw;;
     line-height: 5vw;
