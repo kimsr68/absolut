@@ -105,7 +105,7 @@ header .qna a {
     background-repeat: no-repeat;
 }
 .main .s1 {
-    background-image: url(../img/slide11.jpg);
+    background-image: url(../img/slide1.jpg);
 }
 .main .s2 {
     background-image: url(../img/slide2.jpg);
@@ -167,15 +167,15 @@ header .qna a {
     text-align: center;
     font-size: 3.2vw;
     padding: 4%;
-    background-color: #fff;
-    border-right: 2px solid #ddd;
-    font-weight: bold;
+    background-color: blue;
+    border-right: 1px solid #191d29;
+    color: #fff;
 }
 .tab .tab_title a:last-child {
     border-right: none;
 }
 .tab .tab_title a.active {
-    background-color: #f7f7b9;
+    background-color: #191d29;
 }
 .tab .tab_content {
     position: relative;
@@ -189,22 +189,22 @@ header .qna a {
     background-repeat: no-repeat;
 }
 .tab .tab_content div p {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 3%;
+    padding: 2%;
     text-align: center;
-    font-size: 12vw;
+    font-size: 8.6vw;
     color: #fff;
     text-shadow: 3px 3px 3px #333;
-    margin-top: 18vh;
+    margin-top: 20vh;
     white-space: nowrap;
     font-weight: bold;
 }
 .tab .tab_content div  a {
     text-align: center;
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: #fff;
-    
+    padding-top: 2vw;
 }
 .tab .tab_content .con1 {
     background-image: url(../img/slide5.jpg);
@@ -212,8 +212,15 @@ header .qna a {
 .tab .tab_content .con2 {
     background-image: url(../img/slide6.jpg);
 }
+.tab .tab_content .con2 p {
+    font-size: 6.5vw;
+}
 .tab .tab_content .con3 {
     background-image: url(../img/slide7.jpg);
+}
+.tab .tab_content .con3 p {
+    font-size: 10vw;
+    text-align: center;
 }
 .system {
     width: 100%;
@@ -222,20 +229,18 @@ header .qna a {
 .system div {
     width: 43%;
     padding: 3.5%;
-    background-color: palevioletred;
-    color: #111;
+    background-color: #191d29;
+    color: #fff;
     text-align: center;
     font-size: 2.5vw;
     line-height: 4.5vw;
-    font-weight: 600;
     white-space: nowrap;
 }
 .system h1 {
-    margin-bottom: 0.5vw;
-    padding: 1vw;
+    margin-bottom: 1.3vw;
 }
-.system  .sys2 {
-    font-size: 2.3vw;
+.system  .sys2 h1{
+    font-size: 3.3vw;
     text-align: center;
 }
 .system div p {
@@ -243,16 +248,16 @@ header .qna a {
     line-height: 3.5vw;
 }
 .system a {
-    border: 1px solid #111;
+    border: 1px solid #fff;
     padding: 3%;
     font-size: 2.5vw;
-    color: #111;
+    color: #fff;
     width: 60%;
     margin: 0 auto;
     margin-top: 2vh;
 }
 .system .sys1 {
-    border-right: 1px solid #111;
+    border-right: 1px solid #fff;
 }
 .box {
     width: 100%;
@@ -407,8 +412,6 @@ footer .logo {
     text-align: center;
     
 }
-
-
 
 
 
