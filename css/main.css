@@ -107,13 +107,13 @@ section, footer {
     background-repeat: no-repeat;
 }
 .main .s1 {
-    background-image: url(../img/slide1.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/slide1.jpg);
 }
 .main .s2 {
-    background-image: url(../img/slide2.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/slide2.jpg);
 }
 .main .s3 {
-    background-image: url(../img/slide3.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/slide3.jpg);
 }
 .swiper-pagination-bullet {
     width: 20px;
@@ -129,7 +129,7 @@ section, footer {
     height: 45vh;
     padding: 10%;
     box-sizing: border-box;
-    background-image: url(../img/slide4.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/slide4.jpg);
 }
 .promotion h1 {
     font-size: 7.6vw;
@@ -211,16 +211,16 @@ section, footer {
     padding-top: 2vw;
 }
 .tab .tab_content .con1 {
-    background-image: url(../img/slide5.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/slide5.jpg);
 }
 .tab .tab_content .con2 {
-    background-image: url(../img/slide6.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/slide6.jpg);
 }
 .tab .tab_content .con2 p {
     font-size: 6.5vw;
 }
 .tab .tab_content .con3 {
-    background-image: url(../img/slide7.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/slide7.jpg);
 }
 .tab .tab_content .con3 p {
     font-size: 10vw;
@@ -356,7 +356,7 @@ section, footer {
     width: 8px;
     height: 8px;
     position: absolute;
-    background-image: url(../img/family.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kimsr68/absolut/img/family.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
